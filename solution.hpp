@@ -101,6 +101,7 @@ class Solution
     int mySqrt(int);
     int climbStairs(int);
     int miniCostClimbingStairs(vector<int>&);
+    int maxProfit2(vector<int> &);
 };
 
 #endif // SOLUTION
