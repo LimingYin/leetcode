@@ -100,6 +100,7 @@ class Solution
     RandomListNode* copyRandomList(RandomListNode*);
     int mySqrt(int);
     int climbStairs(int);
+    int miniCostClimbingStairs(vector<int>&);
 };
 
 #endif // SOLUTION
