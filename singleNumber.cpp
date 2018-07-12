@@ -1,0 +1,9 @@
+#include "solution.hpp"
+
+int Solution::singleNumber(vector<int> &nums)
+{
+    int res = 0;
+    for(auto v : nums)
+        res ^= v;
+    return res;
+}
