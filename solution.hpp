@@ -102,6 +102,7 @@ class Solution
     int climbStairs(int);
     int miniCostClimbingStairs(vector<int>&);
     int maxProfit2(vector<int> &);
+    string minWindow(string&, string&);
 };
 
 #endif // SOLUTION
